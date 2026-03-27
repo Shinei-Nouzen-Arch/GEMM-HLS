@@ -223,7 +223,3 @@ Each 32x32 tile is transferred via **64 AXI transactions** (32 rows × 2 transac
 - M, N, K must be **multiples of 32**
 - K <= 4096 (configurable via `MAX_K` in `types.h`)
 - FP32 only (single-precision)
-
-## License
-
-MIT
